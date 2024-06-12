@@ -1,5 +1,33 @@
 * {
-    padding: 0px;
+    padding: 5px;
     margin: 0px;
-    outline: 1px dotted purple;
+    box-sizing:border-box;
+}
+
+header {
+    background-color: #ffa3a3;
+}
+
+main {
+    background-color: #adff61;
+}
+
+footer {
+    background-color: #6dffe4;
+}
+
+.project-card {
+    margin: 10px 0px;
+    background-color: #f2ff8d;
+}
+.project-card-screenshot {
+    background-color: #ffe874;
+    min-height: 30px;
+}
+.project-card-title {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
 }
