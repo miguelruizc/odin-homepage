@@ -14,17 +14,14 @@ header {
 }
 
 .profile-picture {
-    position: relative;
-}
-
-.profile-picture img {
-    max-width: 80vw;
+    background-image: url('./image1.png');
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .profile-name {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
     font-size: 20vw;
     color: red;
     text-align: left;
@@ -48,12 +45,15 @@ footer {
 }
 .project-card-screenshot {
     background-color: #ffe874;
-    min-height: 30px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .project-card-title {
     display: flex;
 }
 
-img {
-   
+footer img {
+    max-width: 100%;
 }
