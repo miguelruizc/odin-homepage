@@ -1,5 +1,4 @@
 * {
-    padding: 5px;
     margin: 0px;
     box-sizing:border-box;
     text-align: center;
@@ -8,13 +7,9 @@
 p {
     text-align: left;
 }
-
-header {
-    background-color: #ffa3a3;
-}
-
 .profile-picture {
-    background-image: url('./image1.png');
+    background-image: url('./image1.jpg');
+    background-size: cover;
     min-height: 500px;
     display: flex;
     flex-direction: column;
@@ -23,7 +18,7 @@ header {
 
 .profile-name {
     font-size: 20vw;
-    color: red;
+    color: white;
     text-align: left;
 }
 
@@ -31,17 +26,10 @@ h1 {
     text-align: center;;
 }
 
-main {
-    background-color: #adff61;
-}
-
-footer {
-    background-color: #6dffe4;
-}
 
 .project-card {
-    margin: 10px 0px;
-    background-color: #f2ff8d;
+    margin: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .project-card-screenshot {
     background-color: #ffe874;
@@ -50,10 +38,21 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+.project-card-info {
+    padding: 15px;
+}
+
 .project-card-title {
+    margin-left: 10px;
     display: flex;
 }
 
+
+footer {
+    background-color: #0891b2;
+    color: white;
+}
 footer img {
     max-width: 100%;
 }
