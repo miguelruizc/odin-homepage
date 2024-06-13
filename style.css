@@ -196,6 +196,16 @@ footer {
     gap: 15px;
 }
 
+.contact-phone {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-phone .icon {
+    max-width: 20px;
+    display: none;
+}
+
 .secondary-picture {
     line-height: 0;
     width: 100%;
@@ -279,6 +289,11 @@ footer {
     .contact {
         max-width: 60%;
     }
+
+    .contact-phone .icon {
+        display: block;
+    }
+
     .secondary-picture {
         
         margin: 20px;
@@ -292,6 +307,35 @@ footer {
     footer .contact-links {
         align-self: flex-start;
     }
+
 }
 
 /* 900px desktop layout */
+@media (min-width: 900px){
+    header {
+        position: static;
+    }
+
+    .profile-picture {
+        width: 450px;
+        height: 450px;
+    }
+    .profile-name {
+        position: static;
+        color: white;
+        white-space: nowrap;  
+        font-size: 60px;    
+    }
+
+    .profile-links {
+        display: flex; 
+        justify-content: flex-end;
+    }
+    .about .icon {
+        display: block;
+    }
+
+    .project-card {
+        flex: 0 0 30%;
+    }
+}
