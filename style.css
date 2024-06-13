@@ -227,6 +227,7 @@ footer {
     header {
         display: block;
         padding: 20px;
+        position: relative;
     }
     .profile-picture {
         margin: 0;
@@ -236,6 +237,15 @@ footer {
         height: 350px;
         float: left;
     }
+    .profile-name {
+        color: white;
+        white-space: nowrap;
+        position: absolute;
+        top: 0;
+        right: 0;    
+        font-size: 70px;    
+    }
+
     .about {
         margin-top: 50px;
         margin-left: 50px;
